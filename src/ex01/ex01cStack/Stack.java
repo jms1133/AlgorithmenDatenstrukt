@@ -1,4 +1,4 @@
-package ex01cStack;
+package ex01.ex01cStack;
 
 public class Stack {
     Node root;

@@ -1,4 +1,4 @@
-package ex01bDLL.try01;
+package ex01.ex01bDLL.try01;
 
 public class DLL {
     NodeD root;
