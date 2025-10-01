@@ -1,4 +1,4 @@
-package ex01List;
+package ex01aSLL.ex01List;
 
 import java.util.Arrays;
 

@@ -1,6 +1,4 @@
-package ex01List;
-
-import java.util.List;
+package ex01aSLL.ex01List;
 
 public class SLL {
     private ListNode root;

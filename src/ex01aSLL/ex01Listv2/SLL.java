@@ -1,4 +1,4 @@
-package ex01Listv2;
+package ex01aSLL.ex01Listv2;
 
 public class SLL {
     ListNode root;

@@ -1,7 +1,6 @@
-package ex01Listv2;
+package ex01aSLL.ex01Listv2;
 
 import java.util.Arrays;
-import java.util.List;
 
 class ListNode{
     int value;
@@ -9,7 +8,6 @@ class ListNode{
 
     public ListNode(int value){
         this.value = value;
-        next = null;
     }
 }
 
