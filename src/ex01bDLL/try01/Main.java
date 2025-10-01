@@ -31,6 +31,9 @@ public class Main {
         dll.addLast(5);
         dll.addFirst(-1);
         System.out.println(Arrays.toString(dll.toArray()));
+        dll.removeFirst();
+        dll.removeLast();
+        System.out.println(Arrays.toString(dll.toArray()));
 
     }
 }
