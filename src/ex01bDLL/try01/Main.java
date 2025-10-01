@@ -17,6 +17,7 @@ public class Main {
 
         DLL dll = new DLL();
         System.out.println("Is list empty? " + dll.isEmpty());
+
         dll.add(1);
         dll.add(2);
         dll.add(3);
@@ -34,6 +35,7 @@ public class Main {
         dll.removeFirst();
         dll.removeLast();
         System.out.println(Arrays.toString(dll.toArray()));
+        System.out.println(dll.getFirst());
 
     }
 }

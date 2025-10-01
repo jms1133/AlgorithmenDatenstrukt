@@ -126,5 +126,18 @@ public class DLL {
         return false;
     }
 
+    int getFirst(){
+        if (root == null){
+            throw new IllegalStateException("List is empty");
+        }
+        return root.value;
+    }
+
+    int getLast(){
+        if (tail == null){
+            throw new IllegalStateException("List is empty");
+        }
+        return tail.value;
+    }
 
 }
