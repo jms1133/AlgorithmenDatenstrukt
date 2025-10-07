@@ -1,27 +1,28 @@
 package AUD02.ex01aHanoi;
 
 public class Hanoi {
-    // rekursiv: strukturen zu verstehen
-    void hanoi(int numOfDiscs){
-        solve(numOfDiscs, 1, 2,3);
+
+    static void hanoi(int n){
+        hanoi(n, 1, 3);
     }
 
-    void solve(int n, int from, int mid, int to){
-        if (n==1) {
-            move(from, to);
+    static void hanoi(int n, int start, int end) {
+        if (n == 1) {
+            pm(start, end);
         } else {
-            solve(n-1, from, to, mid);
-            move(from, to);
-            solve(n-1, mid, to, from);
+            int other = 6 - (start + end);
+            hanoi(n-1, start,other);
+            pm(start, end);
+            hanoi(n-1, other, end);
         }
-
     }
 
-    void move(int from, int to){
-
+    private static void pm(int start, int end) {
+        System.out.printf("%d -> %d\n", start, end);
     }
 
     public static void main(String[] args) {
-
+        hanoi(3);
     }
+
 }

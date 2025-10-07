@@ -1,4 +1,4 @@
-package AUD01.ex01.ex01aSLL.ex01List;
+package AUD01.ex01LinkedLists.ex01aSLL.ex01List;
 
 import java.util.Arrays;
 

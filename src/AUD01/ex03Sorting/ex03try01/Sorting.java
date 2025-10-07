@@ -1,4 +1,4 @@
-package AUD01.ex03.ex03try01;
+package AUD01.ex03Sorting.ex03try01;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package AUD01.ex01.ex01aSLL.ex01Listv2;
+package AUD01.ex01LinkedLists.ex01aSLL.ex01Listv2;
 
 public class SLL {
     ListNode root;

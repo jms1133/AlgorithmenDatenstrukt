@@ -1,4 +1,4 @@
-package AUD01.ex01.ex01dQueue;
+package AUD01.ex01LinkedLists.ex01dQueue;
 
 public class Queue {
     Node head, tail;
