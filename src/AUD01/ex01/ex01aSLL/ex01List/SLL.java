@@ -1,4 +1,4 @@
-package ex01.ex01aSLL.ex01List;
+package AUD01.ex01.ex01aSLL.ex01List;
 
 public class SLL {
     private ListNode root;

@@ -1,4 +1,4 @@
-package ex01.ex01dQueue;
+package AUD01.ex01.ex01dQueue;
 
 public class Queue {
     Node head, tail;
@@ -19,7 +19,12 @@ public class Queue {
     }
 
     // dequeue
-    void poll(){
+    Node poll(){
+        int res = head.value;
+        Node i = head.next;
+        head = i;
+        if (i == null) tail = null;
+        return i;
 
     }
 

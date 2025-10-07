@@ -1,6 +1,6 @@
-package ex02.ex02try01;
+package AUD01.ex02try01;
 
-import ex03.ex03try01.Sorting;
+import AUD01.ex03.ex03try01.Sorting;
 
 import java.util.Arrays;
 

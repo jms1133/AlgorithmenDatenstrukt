@@ -1,8 +1,9 @@
-package ex01.ex01cStack;
+package AUD01.ex01.ex01cStack;
 
 public class Stack {
     Node root;
 
+    // add
     void push(int value){
         Node newNode = new Node();
         newNode.value = value;
@@ -14,6 +15,7 @@ public class Stack {
         }
     }
 
+    // remove
     int pop(){
         if (root == null) {
             throw new IllegalStateException("List is empty.");

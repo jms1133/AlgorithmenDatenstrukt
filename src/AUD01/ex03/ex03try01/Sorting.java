@@ -1,4 +1,4 @@
-package ex03.ex03try01;
+package AUD01.ex03.ex03try01;
 
 import java.util.Arrays;
 
@@ -82,8 +82,8 @@ public class Sorting {
         selectionSort(ex03b);*/
 
         selectionSort(ex03a);
-        bubbleSort(ex03a);
-        insertionSort(ex03a);
+        // bubbleSort(ex03a);
+        // insertionSort(ex03a);
 
     }
 }

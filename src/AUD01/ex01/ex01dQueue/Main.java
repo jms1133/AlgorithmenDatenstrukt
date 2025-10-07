@@ -1,4 +1,4 @@
-package ex01.ex01dQueue;
+package AUD01.ex01.ex01dQueue;
 
 import java.util.Arrays;
 
