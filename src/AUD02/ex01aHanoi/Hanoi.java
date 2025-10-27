@@ -1,3 +1,4 @@
+package AUD02.ex01aHanoi;
 
 public class Hanoi {
     // rekursiv: strukturen zu verstehen
