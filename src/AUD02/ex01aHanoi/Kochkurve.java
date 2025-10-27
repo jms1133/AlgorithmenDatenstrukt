@@ -1,4 +1,3 @@
-package AUD02.ex01aHanoi;
 
 public class Kochkurve {
     void draw(double length, double direction){
@@ -6,7 +5,7 @@ public class Kochkurve {
     }
 
     void koch(int level, double length){
-        if (level == 0) break;
+        if (level == 0) return;
 
         length /= 3;
         draw(length, 0);
@@ -20,7 +19,7 @@ public class Kochkurve {
     }
 }
 
-public class KochSnowflake {
+class KochSnowflake {
     // Current direction in degrees (0 = East, 90 = North, 180 = West, 270 = South)
     private double currentDirection = 0.0;
 
@@ -28,7 +27,7 @@ public class KochSnowflake {
      * Simulates the required draw operation.
      * In a real implementation, this would actually move a cursor or update coordinates.
      * We assume this method moves the drawing position by 'length' in 'direction'.
-     *
+     * <p>
      * NOTE: This method does NOT update currentDirection, as per the problem's specification
      * (the direction for the next segment must be set explicitly).
      */
@@ -43,6 +42,7 @@ public class KochSnowflake {
         System.out.printf("Draw line: Length=%.2f, Direction=%.2f degrees\n", length, direction);
         // The drawing operation implicitly ends the line here, ready for the next one.
     }
+}
 
 // ... rest of the code below ...
 
