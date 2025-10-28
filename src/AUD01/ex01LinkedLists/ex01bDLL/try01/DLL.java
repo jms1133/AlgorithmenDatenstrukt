@@ -1,4 +1,4 @@
-package AUD01.ex01.ex01bDLL.try01;
+package AUD01.ex01LinkedLists.ex01bDLL.try01;
 
 public class DLL {
     NodeD root;

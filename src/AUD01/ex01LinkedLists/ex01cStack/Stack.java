@@ -1,4 +1,4 @@
-package AUD01.ex01.ex01cStack;
+package AUD01.ex01LinkedLists.ex01cStack;
 
 public class Stack {
     Node root;
